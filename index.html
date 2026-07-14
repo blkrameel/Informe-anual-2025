@@ -6837,7 +6837,7 @@
 
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting) { animateCounters(); }
-        }, { threshold: 0.5 });
+        }, { threshold: 0.1 });
         
         const numbersSection = document.querySelector('#numbers-section');
         if(numbersSection) {
