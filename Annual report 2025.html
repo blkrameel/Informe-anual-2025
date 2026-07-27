@@ -426,8 +426,8 @@
         #infografia-proceso .col-4 .inner-circle, #infografia-proceso .col-4 .arrow-accent { background-color: var(--color-4); }
         
         #infografia-proceso .timeline-container, #infografia-proceso .timeline-container3 { width: 100%; display: flex; align-items: center; justify-content: space-between; position: relative; margin-top: -10px; margin-bottom: 150px;  padding: 0 120px; box-sizing: border-box; flex-direction: row; }
-        #infografia-proceso .timeline-container { max-width: 1120px; }
-        #infografia-proceso .timeline-container3 { max-width: 1025px; }
+        #infografia-proceso .timeline-container { max-width: 1100px; }
+        #infografia-proceso .timeline-container3 { max-width: 825px; }
         #infografia-proceso .timeline-line, #infografia-proceso .timeline-line3 { position: absolute; top: 50%; left: 120px; right: 120px; height: 2px; border-top: 2px dashed var(--line-color); z-index: 0; }
         #infografia-proceso .dot { width: 22px; height: 22px; border-radius: 50%; border: 3px solid white; z-index: 2; }
         #infografia-proceso .dot-1 { background-color: var(--color-1); }
@@ -4195,7 +4195,7 @@
                 max-width: 350px;
             }
             .t-line {
-                display: none; /* Ocultamos las líneas en móvil para no romper la altura */
+                display: none; 
             }
             /* Ecosistema Responsivo */
             .eventos-grid, .proyectos-grid {
@@ -4209,7 +4209,7 @@
                 align-items: center;
             }
             .ecosistema-svg-bg {
-                display: none; /* Ocultamos la línea curva en móviles */
+                display: none; 
             }
             .eco-node {
                 position: relative;
@@ -4220,7 +4220,7 @@
                 max-width: 320px;
             }
             .eco-text-top {
-                flex-direction: column-reverse; /* Revertimos el orden en móvil para que el icono quede arriba */
+                flex-direction: column-reverse; 
             }
             .eco-text-top .eco-shape-container {
                 margin-top: 0;
@@ -4228,7 +4228,6 @@
             }
             #informe-anual .stats-grid, #informe-anual .textos-fases-wrapper, #informe-anual .tarjetas-wrapper, #informe-anual .procisur-integracion { grid-template-columns: 1fr; flex-direction: column; }
             
-            /* Corrección para Innovación y Bioeconomía en móvil */
             #informe-anual .imagen-central { display: none !important; }
             #informe-anual .columna-tarjeta { padding-top: 0 !important; width: 100%; }
             #informe-anual .tarjeta { margin: 0 auto 20px auto; max-width: 320px; }
